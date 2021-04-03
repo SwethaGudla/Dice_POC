@@ -1,4 +1,3 @@
-
 import random       #importing random module
 res=[1,2,3,4,5,6]
 def dice(x):
@@ -28,6 +27,7 @@ for i in range(sh):
         res[1],res[2],res[3],res[4]=res[3],res[1],res[4],res[2]
         res1 = res
     random_shuffl_1(res)
+    
     def random_shuffl_2(res):
         res[0],res[1],res[4],res[5]=res[4],res[0],res[5],res[1]
     random_shuffl_2(res)
@@ -66,18 +66,3 @@ def dice_right(right):
     dice(right)
     print('right')
 
-def dice_top(top):
-
-    ''' To roll Top'''
-    
-    top[0],top[2],top[5],top[3]=top[2],top[5],top[3],top[0]
-    dice(top)
-    print('top_right')
-
-def dice_bottom(bottom):
-
-    ''' To roll Bottom'''
-    
-    bottom[0],bottom[2],bottom[5],bottom[3]=bottom[3],bottom[0],bottom[2],bottom[5]
-    dice(bottom)
-    print('bottom_left')
