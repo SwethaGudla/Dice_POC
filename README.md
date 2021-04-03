@@ -16,9 +16,12 @@ If user picks ‘Q’ it will print final position and final count
 
 Installation instructions:-
 
-Click on the below link to download lastest version of python
+Click on the below link to download latest version of python
 
 https://www.python.org/downloads/release/python-392/
+python  :   3.9.2 version
+OS      :   windows10
+GitHub  :   https://github.com/
                                            
 Requirements:-
 import random module
