@@ -21,6 +21,8 @@ while True:
         print("number of times dices roll: ",count)
         for i in r.list_all:
             r.dice(i)#To return latest position of a dice
+        print("latest position of dice")
+        r.dice(i)
         print('Thanks for Participation, Visit Again!!!')
         break
     else:
